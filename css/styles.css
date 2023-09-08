@@ -1,4 +1,99 @@
+/*
+Main Body Elements
+*/
+body{
+    background-color: rgb(58, 58, 75);
+    margin: auto;
+
+    align-items: center;
+}
+
+
+
+#mainHolder{
+    text-align: center;
+}
+#parent{
+    background-color: rgb(211, 211, 211);
+    margin: auto;
+
+    width: 100rem;
+}
+#GuideHolder{
+    padding: 2%;
+}
+
+
+
+
+#title{
+    color: rgb(17, 100, 100);
+    font-size: xxx-large;
+    margin-bottom: 5rem;
+}
+#title2{
+    color: rgb(17, 100, 100);
+    font-size: xx-large;
+
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+#title3{
+    color: rgb(17, 100, 100);
+    font-size: large;
+
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+#title3a{
+    color: rgb(17, 100, 100);
+    font-size: large;
+
+    margin-top: 7rem;
+    margin-bottom: 0.1rem;
+}
+
+
+h3, p{
+    font-size: 1.5rem;
+
+    margin-bottom: 2rem;
+}
+#vText{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+img{
+    border-radius: 0.5rem;
+    border-style: dashed;
+
+    margin-top: 2rem;
+
+    max-width: 50rem;
+    max-height: 50rem;
+
+    display: block;
+}
+
+
+
+#dark{
+    display: inline;
+    font-style: italic;
+}
+
+
+
+
+
+/*
+Footer Element
+*/
 footer{
     text-align: center;
-    background-color: rgb(92, 92, 92);
+    background-color: rgb(155, 155, 155);
+
+    margin: auto;
 }

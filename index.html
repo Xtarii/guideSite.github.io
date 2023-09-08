@@ -8,12 +8,161 @@
         <title>Windows 11 Pro Install Guide</title>
         <link rel="stylesheet" href="./css/styles.css">
     </head>
+
+    <!-- Body -->
     <body>
+        <div id="parent">
+            <!-- Intro -->
+            <div id="mainHolder">
+                <h1 id="title">Installations Guide Windows 11 Pro</h1>
+            </div>
+
+            <div id="GuideHolder">
+                <h3>
+                    Så du har datorn framför dig, det ända som behövs nu är Opertiv Systemet ( OS ) <br>
+                    och lite config för att få den att köra som önskat.
+                </h3>
+
+                <p>Denna Guiden ska gå igenom
+                    <ol>
+                        <li>Hur man installerar Windows 11 Pro OS</li>
+                        <li>Hur man formaterar sitt förvarings utrymme på datorn</li>
+                    </ol>
+
+
+                    <img src="./img/wind11pro.jpg" alt="Windows 11 Pro färdig Installation">
+                </p>
+            </div>
+
+
+
+
+            <!-- Installing Windows Part -->
+            <div id="mainHolder">
+                <h3 id="title2">OS Installation</h3>
+            </div>
+            <div id="GuideHolder">
+                <h3>Vi börjar med att installera Windows</h3>
+
+
+                <!-- Step by Step GUIDE -->
+                <ol>
+                    <li>Sätt in Bootable USB med Windows 11 Pro i datorn</li>
+
+                    <li>
+                        Starta Datorn och öppna BIOS, vanligt viss med <h4 id="dark">F1, F2, F10, F12, Del, eller Esc</h4> under startup
+                        <br>Detta kommer att öppna BIOS
+
+                        <img src="./img/BIOS main.png" alt="BIOS">
+                    </li>
+
+                    <br>
+                    <li>Navigera till Menyn som heter <h4 id="dark">Boot</h4></li>
+
+                    <li>
+                        Vi letar efter något som heter <h4 id="dark">Boot Order</h4><br>
+                        Ändra så att USB:et med OS på står högst upp i <h4 id="dark">prioreties : 1 eller 0</h4> så att datorn bootar från USB:et
+                        
+                        <img src="./img/BIOS Boot order.png" alt="Boot Order inställningar">
+                    </li>
+
+                    <br>
+                    <li>
+                        Om det finns så kan du även ändra OS-Typ i BIOS
+
+                        <img src="./img/BIOS OS type.png" alt="BIOS OS typ">
+                    </li>
+
+                    <br>
+                    <li>Starta om Datorn och följ installations Manualen</li>
+                </ol>
+
+
+                <!-- After install -->
+                <div>
+                    <h4 id="title3">Nu Borde Windows 11 Pro vara installerat på datorn</h4>
+
+                    <h4 id="vText">För att Skydda din dator från eventuella virus eller farliga appar på USB:er så borde du
+                    öppna BIOS igen <h4 id="dark">när Installationen är klar</h4> och ändra tillbaka
+                    <h4 id="dark">Boot Order</h4> till hårddisken som <h4 id="dark">prioritet 1</h4>
+                    så att BIOS inte startar USB minnen först</h4>
+                </div>
+            </div>
+
+
+
+
+
+            <!-- Config Off the Hard Drive -->
+            <div id="mainHolder">
+                <h3 id="title2">Hard Drive Configuering</h3>
+            </div>
+            <div id="GuideHolder">
+                <h3>Då är det dags att ändra på disk configurationen</h3>
+
+
+                <ol>
+                    <li>
+                        Börja med att trycka på Windows knappen och sök efter <h4 id="dark">Datorhantering</h4>
+                        
+                        <img src="./img/Datorhanteraren.png" alt="Datorhantering">
+                    </li>
+
+                    <br>
+                    <li>
+                        Navigera till <h4 id="dark">Diskhantering</h4> under <h4 id="dark">Lagring</h4>
+
+                        <img src="./img/LagringsHantering.png" alt="Lagrings Hantering">
+                    </li>
+
+                    <br>
+                    <li>
+                        <h4 id="dark">Högerklicka</h4> på din disk och tryck på <h4 id="dark">krymp</h4> om det inte redan finns ledigt utrymme
+
+                        <img src="./img/Krynp.png" alt="Krymp Utrymmet">
+                    </li>
+
+                    <br>
+                    <li>
+                        När du krymt utrymmet så kan du högerklicka på det tomma utrymmet längst ned ( Markerat med Svart )
+
+                        <img src="./img/Ledigt utrymme.png" alt="Ledigt Utrymme">
+                    </li>
+
+                    <br>
+                    <li>
+                        Högerklicka på det svarta utrymmet och välja <h4 id="dark">Ny volym</h4>
+
+
+                        <img src="./img/Ny Volym.png" alt="Ny Volym">
+                    </li>
+
+                    <br>
+                    <li>
+                        Följ Guiden för ny volym och och ändra dem inställningarna som passar dig bäst
+                    </li>
+                </ol>
+
+
+                <div>
+                    <h4 id="title3">Nu borde dina diskar vara configurerade</h4>
+                </div>
+            </div>
+
+
+
+            <div id="mainHolder">
+                <h3 id="title3a">Nu borde allt vara klart</h3>
+                <h5>Vid Fel eller förvirring Kontakta oss:</h5>
+                <h6>gmail@gmail.com</h6>
+                <h6>071 111 11 11</h6>
+            </div>
+        </div>
     </body>
 
     <!-- Footer -->
     <footer>
         <h5>Tack till:</h5>
-        <p>Alvin Hansen : Skapare av Hemsidan</p>
+        <h4>Alvin Hansen : Skapare av Hemsidan</h4>
     </footer>
 </html>
